@@ -1,22 +1,3 @@
-// $(document).ready(function() {
-//     $('#dataForm').submit(function(event) {
-//         event.preventDefault();
-//         $.ajax({
-//             type: 'POST',
-//             url: '/submit/',
-//             data: {
-//                 name: $('#name').val(),
-//                 phone: $('#phone').val(),
-//                 csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val()
-//             },
-//             success: function(response) {
-//                 alert(response.message);
-//             }
-//         });
-//     });
-// });
-
-
 $(document).ready(function() {
     $('#dataForm').submit(function(event) {
         event.preventDefault();

@@ -2,11 +2,6 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from .models import User
 
-# def index(request):
-#     users = User.objects.all()
-#     return render(request, 'index.html', {'users': users})
-
-
 def index(request):
     return render(request, 'index.html')
 
